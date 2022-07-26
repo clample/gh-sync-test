@@ -1,4 +1,4 @@
-const myLib = require('./my_lib')
+const myLib = require('./my_other_lib')
 
 if (myLib) {
   console.log('IT STILL WORKS! ', myLib)
