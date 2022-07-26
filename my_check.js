@@ -1,4 +1,4 @@
-const myLib = require('./my_other_lib')
+const myLib = require('./my_other_lib2')
 
 
 if (myLib) {
