@@ -1,4 +1,4 @@
 console.log('OK')
-if (false) {
+if (1 === 2) {
   require('./does-not-exist.js')
 }
