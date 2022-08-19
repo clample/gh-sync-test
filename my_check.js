@@ -1,12 +1,6 @@
 const { chromium } = require('./playwright.js')
 
-require('./missing-file-1.js')
-require('./helpers/missing-file-2.js')
-require('./helpers/missing-file-3.js')
-require('./helpers/missing-file-4.js')
-require('./helpers/missing-file-5.js')
-require('./helpers/missing-file-6.js')
-asdffjfjfjf;;;;asdf
+asdffjfjfjf;;;;asdf asdflf{{}}{{{
 
 // Checkly supports top level await, but we wrap your code in an async function so you can run it locally too.
 async function run () {
