@@ -4,7 +4,7 @@ const { chromium } = require('./playwright.js')
 
 
 
-
+require('./does-not-exist.js')
 
 
 
