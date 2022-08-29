@@ -1,5 +1,6 @@
 const myLib = require('../my_lib')
 
+console.log('MADE CHANGES')
 if (myLib) {
   console.log('IT still WORKS - even nested! ', myLib)
 } else {
