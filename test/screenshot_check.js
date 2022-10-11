@@ -1,4 +1,5 @@
 const { chromium } = require('playwright')
+const takeScreenshot = require('../test-dependency/helper')
 
 // Checkly supports top level await, but we wrap your code in an async function so you can run it locally too.
 async function run () {
@@ -13,11 +14,12 @@ async function run () {
     throw new Error(`Failed with response code ${response.status()}`)
   }
 
+  console.log('Running from directory ', __dirname)
   // We snap a screenshot.
   await page.screenshot({ path: 'screenshot1.jpg' })
   await page.screenshot({ path: '../screenshot2.jpg' })
-  await page.screenshot({ path: 'test/screenshot3.jpg' })
-
+  await page.screenshot({ path: 'test-screenshot/screenshot3.jpg' })
+  await takeScreenshot(page)
 
   // We close the page to clean up and gather performance metrics.
   await page.close()
