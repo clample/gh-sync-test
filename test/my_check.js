@@ -6,4 +6,4 @@ if (myLib) {
 } else {
   throw new Error('It doesnt work')
 }
-lkasdlkjasdfjadsflkj;;;{ }}{{ 
+
