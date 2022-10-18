@@ -7,3 +7,4 @@ if (myLib) {
   throw new Error('It doesnt work')
 }
 
+lasdk {
