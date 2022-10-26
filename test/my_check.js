@@ -1,8 +1,8 @@
 const myLib = require('../my_lib')
 
-// require('left-pad')
-// require('./abc123')
-// require('./a-very-long-dependency-that-is-named-this-file')
+require('left-pad')
+require('./abc123')
+require('./a-very-long-dependency-that-is-named-this-file')
 
 // Test
 
