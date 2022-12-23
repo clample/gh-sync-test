@@ -1,3 +1,3 @@
-import { value } from './es-module-lib'
+import { value, foo } from './es-module-lib'
 
 console.log('Received ', value)
