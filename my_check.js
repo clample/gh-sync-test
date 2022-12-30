@@ -2,15 +2,6 @@ const { chromium } = require('./playwright.js')
 
 
 
-
-
-require('./does-not-exist.js')
-
-
-
-
-
-
 // Checkly supports top level await, but we wrap your code in an async function so you can run it locally too.
 async function run () {
   const browser = await chromium.launch()
